@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    background-image: url("../images/skyArena.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.stage {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.slot {
+    height: 200px;
+    width: 160px;
+    border: 3px solid red;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logStage {
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.atkBtn {
+    border: 3px solid cornflowerblue;
+    color:  cornflowerblue;
+}
+
+#atkHP {
+    border: 3px solid red;
+    color:  red;
+}
+
+#defHP {
+    border: 3px solid red;
+    color:  red;
+}
+
+.combatLog {
+    border: 3px solid cornflowerblue;
+    border-top: none;
+    color:  midnightblue;
+    height: 200px;
+    width: 230px;
+    overflow-y: scroll;
+}
+
+.btn {
+    height: 210px;
+    width: 200px;
+}
+
+#bGarnet{
+    background-image: url("../images/garnet.png");
+    background-size: auto 170px;
+    background-repeat: no-repeat; 
+    background-position: 0px 15px;
+}
+
+#bPearl{
+    background-image: url("../images/pearl.png");
+    background-size: auto 170px;
+    background-repeat: no-repeat; 
+    background-position: 0px 15px;
+}
+
+#bAmethyst{
+    background-image: url("../images/amethyst.png");
+    background-size: auto 170px;
+    background-repeat: no-repeat; 
+    background-position: 0px 15px;
+}
+
+#bSteven{
+    background-image: url("../images/steven.png");
+    background-size: auto 170px;
+    background-repeat: no-repeat; 
+    background-position: 0px 15px;
+}
