@@ -17,6 +17,7 @@ ul{
 }
 
 .stage {
+    margin-top: 20px;
     width: 100%;
     display: inline-flex;
     justify-content: space-evenly;
@@ -38,7 +39,9 @@ ul{
 
 .atkBtn {
     border: 3px solid cornflowerblue;
-    color:  cornflowerblue;
+    background-color:   cornflowerblue;
+    color: white;
+    text-align: center;
 }
 
 #atkHP {
